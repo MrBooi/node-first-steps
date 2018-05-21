@@ -14,4 +14,5 @@ figlet('Ayabonga', function(err, data) {
     console.log(data)
 });
 const styledMessage = chalk.blue.bold(greet('Xola'));
+
 console.log(styledMessage)
